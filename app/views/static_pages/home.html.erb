@@ -1,0 +1,61 @@
+
+
+<body>
+  <div id = "content">
+
+    <div class="bs-example">
+    <div id="myCarousel" class="carousel slide" data-interval="5000" data-ride="carousel">
+       <!-- Carousel items -->
+        <div class="carousel-inner">
+            <div class="active item">
+              <%= image_tag "Landing-Page1.png"%>
+            </div>
+            <div class="item">
+              <%= image_tag "Landing-Page2.png"%>
+            </div>
+            <div class="item">
+              <%= image_tag "Landing-Page1.png"%>
+            </div>
+        </div>
+        <!-- Carousel nav -->
+        <a class="carousel-control left" href="#myCarousel" data-slide="prev">
+            <span class="glyphicon glyphicon-chevron-left"></span>
+        </a>
+        <a class="carousel-control right" href="#myCarousel" data-slide="next">
+            <span class="glyphicon glyphicon-chevron-right"></span>
+        </a>
+    </div>
+    </div>
+  </div>
+
+<br />
+
+<div class = "row info-pane">
+  <div class = "col-md-3">
+  </div>
+  <div class = "col-md-6" id = "info">
+
+    <blockquote><strong>TALK TO ME</strong></blockquote>
+    <%= form_tag :emails %>
+      <%=  text_area(:email, :body, placeholder: "Name", class: "form-control") %>
+      <br />
+      <%=  text_area(:email, :body, placeholder: "Location", class: "form-control") %>
+      <br />
+      <%=  email_field(:email, :from, placeholder: "Email", class: "form-control") %> 
+      <br />
+      <%= submit_tag "Send it", class: "btn form-control btn-primary" %>
+
+    <p class = "home-copy">
+      <span style = "color:black">The path of the righteous man is beset on all sides by the iniquities of the selfish and the tyranny of evil men. Blessed is he who, in the name of charity and good will, shepherds the weak through the valley of darkness, for he is truly his brother's keeper and the finder of lost children. And I will strike down upon thee with great vengeance and furious anger those who would attempt to poison and destroy My brothers. And you will know My name is the Lord when I lay My vengeance upon thee.</span>
+    </p>
+    <h1 id = "paddingBottom"><span style = "color:black">Insert Links</span></h1>
+  </div>
+  <div class = "col-md-3">
+  </div>
+
+</div>
+
+<br />
+
+<div id = "footer">
+</div>

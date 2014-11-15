@@ -1,4 +1,8 @@
 Phlickit::Application.routes.draw do
+  get "emails/new"
+  match "/emails", to: "emails#new", via: "post"
+  
+  root "static_pages#home"
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 

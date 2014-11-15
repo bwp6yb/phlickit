@@ -1,21 +1,41 @@
-h2{
-    margin: 0;     
-    color: #666;
-    padding-top: 90px;
-    font-size: 52px;
-    font-family: "trebuchet ms", sans-serif;    
-}
+
 .item{
     background: yellow;    
     text-align: center;
-    height: 685px !important;
+    height: 720px !important;
 }
 .carousel{
-    margin-top: -20px;
+    margin-top: 0px;
 }
 .bs-example{
 	margin: 0px;
 }
 img.carouselPhoto{
     height: 685px !important;
+}
+
+#hearMore {
+    font-size: 200%;
+    text-align: center;
+}
+
+#marginBottom {
+    margin-bottom: 210px;
+}
+
+/* Form */
+textarea#email_body {
+    border: 1px solid black;
+    box-shadow: none;
+    text-align: left;
+    resize: none;
+}
+input#email_from {
+    border: 1px solid black;
+    box-shadow: none;
+    text-align: left;
+    resize: none;
+}
+input.btn.form-control.btn-primary {
+    margin-bottom: 50px;
 }

@@ -8,13 +8,13 @@
        <!-- Carousel items -->
         <div class="carousel-inner">
             <div class="active item">
-              <%= image_tag "Landing-Page1.png"%>
+              <img src = "Landing-Page1.png">
             </div>
             <div class="item">
-              <%= image_tag "Landing-Page3.png"%>
+              <img src = "Landing-Page3.png">
             </div>
             <div class="item">
-              <%= image_tag "Landing-Page2.png"%>
+              <img src = "Landing-Page2.png">
             </div>
         </div>
         <!-- Carousel nav -->
@@ -38,9 +38,7 @@
     <p id = "hearMore"><strong>Interested in hearing more?</strong></p>
     <p id = "underline"></p>
     <%= form_tag :emails %>
-      <%=  text_area(:email, :name, placeholder: "Name", class: "form-control") %>
-      <br />
-      <%=  text_area(:email, :location, placeholder: "Location", class: "form-control") %>
+      <%=  text_area(:email, :body, placeholder: "Location", class: "form-control") %>
       <br />
       <%=  email_field(:email, :from, placeholder: "Email", class: "form-control") %> 
       <br />

@@ -1,0 +1,55 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or vendor/assets/stylesheets of plugins, if any, can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the top of the
+ * compiled file, but it's generally better to create a new file per style scope.
+ *
+
+
+ */
+
+
+.item{
+    background: yellow;    
+    text-align: center;
+    height: 720px !important;
+}
+.carousel{
+    margin-top: 0px;
+}
+.bs-example{
+	margin: 0px;
+}
+img.carouselPhoto{
+    height: 685px !important;
+}
+
+#hearMore {
+    font-size: 200%;
+    text-align: center;
+}
+
+#marginBottom {
+    margin-bottom: 210px;
+}
+
+/* Form */
+textarea#email_body {
+    border: 1px solid lightgray;
+    box-shadow: none;
+    text-align: left;
+    resize: none;
+}
+input#email_from {
+    border: 1px solid lightgray;
+    box-shadow: none;
+    text-align: left;
+    resize: none;
+}
+input.btn.form-control.btn-primary {
+    margin-bottom: 50px;
+}

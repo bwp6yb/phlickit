@@ -4,10 +4,9 @@ class ClientMailer < ActionMailer::Base
   sendgrid_category :use_subject_lines
 
 
-  def client_email(client_email, name, location)
+  def client_email(client_email, message)
     @client = client_email
-    @name = name
-    @location = location
+    @message = message
     mail(subject: "A potential client!", from: client_email)
   end
 end

@@ -38,9 +38,9 @@
     <p id = "hearMore"><strong>Interested in hearing more?</strong></p>
     <p id = "underline"></p>
     <%= form_tag :emails %>
-      <%=  text_area(:email, :body, placeholder: "Name", class: "form-control") %>
+      <%=  text_area(:email, :name, placeholder: "Name", class: "form-control") %>
       <br />
-      <%=  text_area(:email, :body, placeholder: "Location", class: "form-control") %>
+      <%=  text_area(:email, :location, placeholder: "Location", class: "form-control") %>
       <br />
       <%=  email_field(:email, :from, placeholder: "Email", class: "form-control") %> 
       <br />

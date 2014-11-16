@@ -4,40 +4,60 @@
     font-weight: bold;
 }
 .font {
-    font-family: optima;
+    font-family: Orator Std;
 }
 .item{
-    background: yellow;    
+    background: white;    
     text-align: center;
-    height: 720px !important;
+    height: auto !important;
+    width: 100%;
 }
 .carousel{
-    margin-top: 0px;
+    margin-top: -90px;
 }
 .bs-example{
 	margin: 0px;
 }
 img.carouselPhoto{
-    height: 685px !important;
+    height: 0px !important;
 }
 #hearMore {
     font-size: 500%;
     text-align: center;
+    color: #3af13e;
+    margin-bottom: -50px;
+    margin-top: -10px;
 }
 
 #marginBottom {
-    margin-bottom: 0px;
+    margin-bottom: -23px;
 }
-
-#underline {
-    border-top: 1px solid black;
-    margin-top: -40px;
-    width: 70%;
-    margin-left: 95px;
+p.home-copy {
+    padding: 20px;
 }
-
 .home-copy {
-    margin-bottom: 70px;
+    margin-bottom: 25px;
+    border-top: 5px solid darkgray;
+    border-bottom: 5px solid darkgray;
+    background-color: #3af12f;
+}
+
+#leftGreen {
+    height: 234px;
+    width: 115%;
+    background-color: #3af12f;
+    margin-top: 80px;
+    border-top: 5px solid darkgray;
+    border-bottom: 5px solid darkgray;
+}
+#rightGreen {
+    height: 234px;
+    width: 120%;
+    background-color: #3af12f;
+    margin-top: 80px;
+    margin-left: -10%;
+    border-top: 5px solid darkgray;
+    border-bottom: 5px solid darkgray;
 }
 /* Form */
 textarea#email_body {
@@ -49,6 +69,8 @@ textarea#email_body {
     float: left;
     height: 50px;
     border-radius: 0%;
+    font-family: Orator Std;
+    padding-top: 15px;
 }
 input#email_from {
     border: 1px solid lightgray;
@@ -59,14 +81,33 @@ input#email_from {
     float: right;
     height: 50px;
     border-radius: 0%;
+    font-family: Orator Std;
 }
 input.btn.form-control.btn-primary {
     margin-bottom: 50px;
     border-radius: 100%;
-    height: 65px;
-    width: 65px;
+    height: 85px;
+    width: 85px;
     margin-top: -25px;
-    margin-left: 45%;
+    margin-left: 44%;
+    background-color: #3af13e;
+    color: white;
+    border: 1px solid lightgray;
+    font-family: Orator Std;
+}
+::-webkit-input-placeholder { /* WebKit browsers */
+    color:    #3af13e !important;
+}
+:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+   color:    #3af13e !important;
+   opacity:  1;
+}
+::-moz-placeholder { /* Mozilla Firefox 19+ */
+   color:    #3af13e !important;
+   opacity:  1;
+}
+:-ms-input-placeholder { /* Internet Explorer 10+ */
+   color:    #3af13e !important;
 }
 .fullWidth {
     width: 100% !important;

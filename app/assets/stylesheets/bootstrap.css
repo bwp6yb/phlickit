@@ -1,11 +1,22 @@
 @font-face {
+font-family: 'oratorstd';
+src: url('/fonts/oratorstd-webfont.eot');
+src: url('/fonts/oratorstd-webfont.eot?#iefix') format('embedded-opentype'),
+url('/fonts/oratorstd-webfont.woff') format('woff'),
+url('/fonts/oratorstd-webfont.ttf') format('truetype'),
+url('/fonts/oratorstd-webfont.svg#OratorStdMedium') format('svg');
+font-weight: normal;
+font-style: normal;
+}
+
+/*@font-face {
     font-family: myFont;
     src: url(OratorStd.otf);
     font-weight: bold;
-}
+}*/
 .font {
 
-    font-family: orator std, arial, sans-serif;
+    font-family: oratorstd, arial, sans-serif;
 }
 .item{
     background: white;    
@@ -122,6 +133,9 @@ input.btn.form-control.btn-primary {
 }
 :-ms-input-placeholder { /* Internet Explorer 10+ */
    color:    #3af13e !important;
+}
+input:-webkit-autofill {
+    -webkit-box-shadow: 0 0 0px 1000px white inset !important;
 }
 .fullWidth {
     width: 100% !important;

@@ -23,6 +23,12 @@ img.carouselPhoto{
     margin-bottom: 290px;
 }
 
+#underline {
+    border-top: 1px solid black;
+    margin-top: -10px;
+    width: 70%;
+    margin-left: 95px;
+}
 /* Form */
 textarea#email_body {
     border: 1px solid lightgray;

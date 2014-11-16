@@ -4,7 +4,9 @@
     font-weight: bold;
 }
 .font {
-    font-family: Orator Std;
+
+    font-family: symbol;
+    font-size: 117%;
 }
 .item{
     background: white;    
@@ -20,6 +22,10 @@
 }
 img.carouselPhoto{
     height: 0px !important;
+}
+.right.carousel-control, .left.carousel-control {
+    opacity: 0;
+    filter:alpha(opacity=0); /* IE support */
 }
 #hearMore {
     font-size: 500%;

@@ -1,4 +1,11 @@
-
+@font-face {
+    font-family: myFont;
+    src: url(OratorStd.otf);
+    font-weight: bold;
+}
+.font {
+    font-family: optima;
+}
 .item{
     background: yellow;    
     text-align: center;
@@ -13,21 +20,24 @@
 img.carouselPhoto{
     height: 685px !important;
 }
-
 #hearMore {
-    font-size: 200%;
+    font-size: 500%;
     text-align: center;
 }
 
 #marginBottom {
-    margin-bottom: 290px;
+    margin-bottom: 0px;
 }
 
 #underline {
     border-top: 1px solid black;
-    margin-top: -10px;
+    margin-top: -40px;
     width: 70%;
     margin-left: 95px;
+}
+
+.home-copy {
+    margin-bottom: 70px;
 }
 /* Form */
 textarea#email_body {
@@ -35,13 +45,31 @@ textarea#email_body {
     box-shadow: none;
     text-align: left;
     resize: none;
+    width: 48%;
+    float: left;
+    height: 50px;
+    border-radius: 0%;
 }
 input#email_from {
     border: 1px solid lightgray;
     box-shadow: none;
     text-align: left;
     resize: none;
+    width: 48%;
+    float: right;
+    height: 50px;
+    border-radius: 0%;
 }
 input.btn.form-control.btn-primary {
     margin-bottom: 50px;
+    border-radius: 100%;
+    height: 65px;
+    width: 65px;
+    margin-top: -25px;
+    margin-left: 45%;
+}
+.fullWidth {
+    width: 100% !important;
+    margin-top: 20px;
+    height: 150px !important;
 }

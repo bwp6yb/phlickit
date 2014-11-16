@@ -32,24 +32,26 @@
 
 <div class = "row info-pane">
   <div class = "col-md-3">
+    <div id = "logoPlaceholder"></div>
   </div>
   <div class = "col-md-6" id = "info">
 
-    <p id = "hearMore"><strong>Interested in hearing more?</strong></p><br>
+    <p class = "font" id = "hearMore"><strong>Phlick</strong></p><br>
     <p id = "underline"></p><br><br><br>
+    <p class = "home-copy">
+      <span style = "color:black" class = "font">Phlick is a quick, easy, and versatile app for sharing all of your media. Phlick will connect you better with friends and family and promote collaborative work environments by offering a localized media sharing solution that's faster, better, and most importantly, more fun than anything else out there<br><br>If you want to have the next cool app to tell your friends about... just Phlick it!</span>
+    </p>
+
     <%= form_tag :emails %>
       <%=  text_area(:email, :body, placeholder: "Location", class: "form-control") %>
-      <br />
-      <%=  email_field(:email, :from, placeholder: "Email", class: "form-control") %> 
-      <br />
-      <%= submit_tag "Send it", class: "btn form-control btn-primary" %>
+      <%=  email_field(:email, :from, placeholder: "Email", class: "form-control") %><br>
+      <%=  text_area(:email, :body, placeholder: "Message", class: "form-control fullWidth") %>
+      <%= submit_tag "Phlick", class: "btn form-control btn-primary" %>
 
-    <p class = "home-copy">
-      <span style = "color:black">There are two things that are trending right now. One is the desire to be more connected with friends and family. The other is more collaborative work spaces. Phlick is an app that shares any media instantly within a group. It's also a simple file viewer to make meetings paperless and hassle-free, keeping everyone quite literally on the same page. It stops the huddling around one single device allowing for simple media sharing to enhance quality of life and interactive collaboration.</span>
-    </p>
     <h1 id = "marginBottom"></h1>
   </div>
   <div class = "col-md-3">
+    <div id = "downloadPlaceholder"></div>
   </div>
 
 </div>

@@ -1,0 +1,167 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or vendor/assets/stylesheets of plugins, if any, can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the top of the
+ * compiled file, but it's generally better to create a new file per style scope.
+ *
+
+
+ */
+
+@font-face {
+    font-family: myFont;
+    src: url(OratorStd.otf);
+    font-weight: bold;
+}
+.font {
+
+    font-family: orator std, arial, sans-serif;
+}
+.item{
+    background: white;    
+    text-align: center;
+    height: auto !important;
+    width: 100%;
+}
+.carousel{
+    margin-top: -90px;
+}
+.bs-example{
+	margin: 0px;
+}
+img.carouselPhoto{
+    height: 0px !important;
+}
+.right.carousel-control, .left.carousel-control {
+    opacity: 0;
+    filter:alpha(opacity=0); /* IE support */
+}
+img#logoImage {
+    height: 170px;
+    width: auto;
+    margin-top: -42px;
+    margin-bottom: -42px;
+    margin-left: -70px;
+}
+#hearMore {
+    font-size: 600%;
+    text-align: center;
+    color: #3af13e;
+    margin-bottom: -50px;
+    margin-top: -100px;
+    margin-right: -300px;
+}
+
+#marginBottom {
+    margin-bottom: -23px;
+}
+p.home-copy {
+    padding: 20px 155px;
+    text-align: center;
+}
+.home-copy {
+    margin-bottom: 45px;
+    border-top: 5px solid darkgray;
+    border-bottom: 5px solid darkgray;
+    background-color: #3af12f;
+}
+
+#leftGreen {
+    height: 234px;
+    width: 115%;
+    background-color: #3af12f;
+    margin-top: 80px;
+    border-top: 5px solid darkgray;
+    border-bottom: 5px solid darkgray;
+}
+#rightGreen {
+    height: 234px;
+    width: 120%;
+    background-color: #3af12f;
+    margin-top: 80px;
+    margin-left: -10%;
+    border-top: 5px solid darkgray;
+    border-bottom: 5px solid darkgray;
+}
+/* Form */
+textarea#email_body {
+    border: 1px solid lightgray;
+    box-shadow: none;
+    text-align: left;
+    resize: none;
+    width: 48%;
+    float: left;
+    height: 50px;
+    border-radius: 0%;
+    font-family: Orator Std;
+    padding-top: 15px;
+}
+input#email_from {
+    border: 1px solid lightgray;
+    box-shadow: none;
+    text-align: left;
+    resize: none;
+    width: 48%;
+    float: right;
+    height: 50px;
+    border-radius: 0%;
+    font-family: Orator Std;
+}
+input.btn.form-control.btn-primary {
+    margin-bottom: 65px;
+    border-radius: 100%;
+    height: 85px;
+    width: 85px;
+    margin-top: -40px;
+    margin-left: 43%;
+    background-color: #3af13e;
+    color: white;
+    border: 1px solid lightgray;
+    font-family: Orator Std;
+}
+::-webkit-input-placeholder { /* WebKit browsers */
+    color:    #3af13e !important;
+}
+:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+   color:    #3af13e !important;
+   opacity:  1;
+}
+::-moz-placeholder { /* Mozilla Firefox 19+ */
+   color:    #3af13e !important;
+   opacity:  1;
+}
+:-ms-input-placeholder { /* Internet Explorer 10+ */
+   color:    #3af13e !important;
+}
+.fullWidth {
+    width: 100% !important;
+    margin-top: 20px;
+    height: 150px !important;
+}
+ul, ol {
+    margin-top: 50px;
+    margin-bottom: 10px;
+}
+ul li {
+    display: inline;
+    float: left;
+    padding: 0px 10px 5px 10px;
+    margin-top: -20px;
+}
+ul li img {
+    height: 25px;
+    width: auto;
+}
+li#downloadButton {
+    float: right;
+    height: 50px !important;
+}
+img#largerSize {
+    height: 50px !important;
+    margin-right: 30px;
+    margin-top: -25px;
+}

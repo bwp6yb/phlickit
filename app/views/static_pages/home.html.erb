@@ -8,22 +8,22 @@
        <!-- Carousel items -->
         <div class="carousel-inner">
             <div class="active item">
-              <img src = "Landing-Page1.png">
+              <img src = "Landing-Page111.png">
             </div>
             <div class="item">
-              <img src = "Landing-Page3.png">
+              <img src = "Landing-Page113.png">
             </div>
             <div class="item">
-              <img src = "Landing-Page2.png">
+              <img src = "Landing-Page112.png">
             </div>
             <div class="item">
-              <img src = "Landing-Page4.png">
+              <img src = "Landing-Page114.png">
             </div>
             <div class="item">
-              <img src = "Landing-Page6.png">
+              <img src = "Landing-Page116.png">
             </div>
             <div class="item">
-              <img src = "Landing-Page5-1.png">
+              <img src = "Landing-Page115.png">
             </div>
         </div>
         <!-- Carousel nav -->
@@ -41,30 +41,56 @@
 
 <div class = "row info-pane">
   <div class = "col-md-3">
-    <div id = "leftGreen"></div>
   </div>
-  <div class = "col-md-6" id = "info">
-
+  <div class = "col-md-6">
+    <p><img src = "LogoN.png" id = "logoImage"></p>
     <p class = "font" id = "hearMore"><strong>Phlick</strong></p><br><br>
+  </div>
+  <div class = "col-md-3">
+  </div>
+
+  <div class = "col-md-12" id = "info"> 
     <p class = "home-copy">
-      <span style = "color:white" class = "font">Phlick is a quick, easy, and versatile app for sharing all of your media. Phlick will connect you better with friends and family and promote collaborative work environments by offering a localized media sharing solution that's faster, better, and most importantly, more fun than anything else out there<br><br>If you want to have the next cool app to tell your friends about... just Phlick it!</span>
+      <span style = "color:white" class = "font">Phlick is a quick, easy, and versatile app for sharing all of your media. Phlick will connect you better with friends and family and promote collaborative work environments by offering a localized media sharing solution that's faster, better, and most importantly, more fun than anything else out there<br><br>Next time you want to show your friends the coolest new thing... just Phlick it!</span>
     </p>
 
+  <div class = "col-md-3">
+  </div>
+  <div class = "col-md-6">
     <%= form_tag :emails %>
       <%=  text_area(:email, :body, placeholder: "Location", class: "form-control") %>
       <%=  email_field(:email, :from, placeholder: "Email", class: "form-control") %><br>
       <%=  text_area(:email, :body, placeholder: "Message", class: "form-control fullWidth") %>
       <%= submit_tag "Phlick", class: "btn form-control btn-primary" %>
-
-    <h1 id = "marginBottom"></h1>
   </div>
   <div class = "col-md-3">
-    <div id = "rightGreen"></div>
   </div>
 
-</div>
+  <div class = "col-md-12">
+    <ul>
+      <li>
+        <a href = "https://www.facebook.com/pages/Phlick/762682057138186"><img src = "gray1.png"></a>
+      </li>
+      <li>
+        <a href = "#"><img src = "gray6.png"></a>
+      </li>
+      <li>
+        <a href = "#"><img src = "gray2.png"></a>
+      </li>
+      <li>
+        <a href = "#"><img src = "gray3.png"></a>
+      </li>
+      <li>
+        <a href = "#"><img src = "gray5.png"></a>
+      </li>
+    </ul>
+    <ul>
+      <li id = "downloadButton">
+        <a href = "#"><img src = "gray4.png" id = "largerSize"></a>
+      </li>
+    </ul>
+  </div>  
+
+
 
 <br />
-
-<div id = "footer">
-</div>
